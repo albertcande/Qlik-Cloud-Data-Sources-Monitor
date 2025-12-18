@@ -63,7 +63,7 @@ def determine_severity(issues: List[Dict[str, Any]]) -> str:
 
 def main_loop():
     load_dotenv()
-    logger.info("Starting Qlik Cloud Status Monitor...")
+    logger.info("Starting Data Sources Status Monitor...")
     
     poll_interval = 60 # Check every 60 seconds as per goal "under 60 seconds"
     # Task 3 says "loop every 5 minutes", but Goal says "under 60 seconds".
@@ -103,3 +103,4 @@ def main_loop():
 
 if __name__ == "__main__":
     main_loop()
+
