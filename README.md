@@ -128,7 +128,7 @@ To add a new service to monitor:
 ## Project Structure
 
 ```
-mvp-qlik-monitor/
+data-sources-monitor/
 ├── main.py              # Main orchestrator loop
 ├── qlik_client.py       # Qlik Cloud API client (banner upsert)
 ├── monitors/
